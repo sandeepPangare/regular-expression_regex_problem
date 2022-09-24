@@ -4,5 +4,8 @@ public class UserRegistration {
         /*First name starts with Cap and has
         minimum 3 characters*/
         System.out.println("Sandeep".matches("^[A-Z]"+"[a-z]{3,}"));
+        /*Last name starts with Cap and has
+        minimum 3 characters*/
+        System.out.println("Pangare".matches("^[A-Z][a-z]{3,}"));
     }
 }
