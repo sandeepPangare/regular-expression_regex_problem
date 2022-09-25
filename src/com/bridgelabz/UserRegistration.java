@@ -36,5 +36,10 @@ public class UserRegistration {
          */
         boolean Password3 = Pattern.matches("(?=.*[A-Z])" + "(?=.*[0-9])" + ".{8,}", "AbcDef78");
         System.out.println("Result 7 = "+Password3);
+        /*
+        Rule4 – Has exactly 1 Special Character
+         */
+        boolean Password4 = Pattern.matches("(?=.*[A-Z])"+"(?=.*[0-9])"+"(?=.*[@#$%^&+=])"+".{8,}", "@AbcDef#78");
+        System.out.println("Result 8 = "+Password4);
     }
 }
