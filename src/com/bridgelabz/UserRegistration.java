@@ -35,6 +35,6 @@ public class UserRegistration {
         Rule3– Should have at least 1numeric number in the password
          */
         boolean Password3 = Pattern.matches("(?=.*[A-Z])" + "(?=.*[0-9])" + ".{8,}", "AbcDef78");
-        System.out.println("Result 6 = "+Password3);
+        System.out.println("Result 7 = "+Password3);
     }
 }
